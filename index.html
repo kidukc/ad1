@@ -1,5 +1,3 @@
-<!doctype html>
-<html>
 <head>
   <title>WEB1 - html</title>
   <meta charset="utf-8">
@@ -19,5 +17,18 @@
   <a href="#" onclick="window.open('ad.html', '_blank')">
   <button>광고</button>
   </a>
+
+  <input type="button" onclick="openDaum()" value="기본 소스코드">
+  <input type="button" onclick="openNaver()" value="속성코드를 적용한 소스코드">
+  <script>
+  function openDaum() {
+  window.open("http://daum.net", "앱개발업체 익스모바일", "width=400,height=400");
+  }
+  function openNaver() {
+  window.open("http://naver.com", "앱개발업체 익스모바일", "width=400,height=400,resizable=yes,scrollbars=yes");
+  }
+  </script>
+
 </body>
+
 </html>
